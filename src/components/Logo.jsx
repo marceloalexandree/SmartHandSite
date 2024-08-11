@@ -6,7 +6,7 @@ export default function Logo() {
     <StyleLogo>
         <img src={LogoImg} alt="Logo da SmartHand"/>
         <div>
-            <h2>Smarthand</h2>
+            <h2 translate="no">Smarthand</h2>
             <h3>Luva Tradutora de Libras</h3>
         </div>
     </StyleLogo>

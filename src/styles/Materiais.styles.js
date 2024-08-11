@@ -1,5 +1,5 @@
 import styled from "styled-components";
 
-export const TelaMateriais = styled.div`
+export const TelaMateriais = styled.main`
 
 `

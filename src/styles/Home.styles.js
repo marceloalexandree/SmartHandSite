@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const TelaHome = styled.div `
+export const TelaHome = styled.main `
     height: 100vh;
     //*background: #000000;
 `
