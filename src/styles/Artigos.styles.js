@@ -111,4 +111,5 @@ export const Parte3 = styled.div`
         color: #7B2BBE;
         border: solid 5px #7B2BBE;
     }
+
 `

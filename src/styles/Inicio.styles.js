@@ -15,7 +15,6 @@ export const TelaInicio = styled.main`
         color: #ffffff;
         font-family: 'Poppins';
         font-size: 2.25rem;
-        width: 57.25rem;
     }
 
     #Inicio1{
@@ -28,6 +27,13 @@ export const Parte1 = styled.section`
     margin-top: 8.75rem;
     padding-bottom: 10.75rem;
 
+    p{
+        color: #ffffff;
+        font-family: 'Poppins';
+        font-size: 2.25rem;
+        width: 57.25rem;
+    }
+    
     figcaption{
         font-family: 'Ruda';
         color: #ffffff;
@@ -39,10 +45,9 @@ export const Parte1 = styled.section`
 export const Parte2 = styled.section`
     background: #570083;
     padding-left: 10.1875rem;
-    padding-block: 19.8125rem;
+    padding-block: 8rem;
 
     p{
-        
         width: 99.6875rem;
         font-size: 3.125rem;
         text-align: justify;
@@ -68,6 +73,7 @@ export const Parte2 = styled.section`
     #Parte2{
         font-size: 2.5rem;
         width: 66.5rem;
+        padding-bottom: 3rem;
     }
 `
 
@@ -77,7 +83,6 @@ export const Parte3 = styled.div`
     flex-direction: column;
     justify-content: center;
     padding-block: 7.8125rem;
-    gap: 4.0625rem;
 
     h3{
         text-align: center;
@@ -99,5 +104,11 @@ export const Parte3 = styled.div`
         img:hover{
             opacity: 1;
         }
+    }
+
+    p{
+        text-align: center;
+        margin-bottom: 5rem;
+        margin-top: 2rem;
     }
 `

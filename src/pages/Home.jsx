@@ -28,7 +28,6 @@ export default function Home() {
               <img src={Twitter} alt="Logo do Twitter" />
             </div>
           </section>
-
           <Link to="/inicio">Saiba Mais Sobre o Nosso Produto</Link>
         </Esquerda>
         <GlobalStyle/>

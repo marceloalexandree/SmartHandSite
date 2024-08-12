@@ -4,6 +4,7 @@ import Topo from "../components/Topo";
 import Seta from "../components/Seta";
 import Img1 from "/Inicio1.png"
 import Img2 from "/Artigo1.png"
+import Mar from "/Mar.png"
 
 export default function Artigos() {
   return (
@@ -25,8 +26,8 @@ export default function Artigos() {
         </div>
       </Parte2>
       <Parte3>
-        <h3>Quer ler os artigos usados para embasamento cientifico do nosso produto? Clique no botão abaixo:</h3>
-        <button onClick="" id="ovo">Ver artigos</button>
+        <h3>Quer ler os artigos usados para embasamento científico do nosso produto? Clique no botão abaixo:</h3>
+        <button id="ovo">Ver artigos</button>
       </Parte3>
       <GlobalStyle/>
     </TelaArtigos>

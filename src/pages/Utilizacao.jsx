@@ -1,7 +1,11 @@
-import { Parte1, Parte2, TelaUtilizacao } from "../styles/Utilizacao"
+import { Parte1, Parte2, Parte3, TelaUtilizacao } from "../styles/Utilizacao"
 import { GlobalStyle } from "../styles/global";
 import Topo from "../components/Topo";
 import Planeta from "/Planeta.png"
+import Img1 from "/Utilizacao1.png"
+import Img2 from "/Utilizacao2.png"
+import Img3 from "/Utilizacao3.png"
+import Img4 from "/Google.png"
 
 export default function Utilizacao() {
   return (
@@ -20,8 +24,30 @@ export default function Utilizacao() {
         </section>
       </Parte1>
       <Parte2>
-        
+        <h1>Passo a Passo</h1>
+        <h2>Para tornar a sua experiência ainda mais fácil, preparamos um guia simples com apenas 3 passos!</h2>
+        <section>
+          <div>
+            <h3 id="a1">1</h3>
+            <img src={Img1} alt="" />
+            <p>Para usar a SmartHand, é necessário colocá-la na mão</p>
+          </div>
+          <div>
+            <h3 id="a2">2</h3>
+            <img src={Img2} alt="" />
+            <p>Conectá-la ao aplicativo via rede bluetooh</p>
+          </div>
+          <div>
+            <h3 id="a3">3</h3>
+            <img src={Img3} alt="" />
+            <p>Abrir o aplicativo e realizar os sinais em LIBRAS</p>
+          </div>
+        </section>
       </Parte2>
+      <Parte3>
+        <p>Não tem o aplicativo da SmartHand? Baixe agora na Google Play Store!</p>
+        <a href=""><img src={Img4} alt="Baixar o app da SmartHand" /></a>
+      </Parte3>
       <GlobalStyle/>
     </TelaUtilizacao>
   )

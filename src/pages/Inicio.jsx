@@ -31,6 +31,7 @@ export default function Inicio() {
       </Parte2>
       <Parte3>
         <h3>Que tal dar uma olhadinha em volta?</h3>
+        <p>Selecionamos algumas notícias  que podem ser do seu interesse. </p>
         <div>
           <a href="https://www.camara.leg.br/noticias/1017078-projeto-garante-acessibilidade-de-pessoa-com-deficiencia-auditiva-em-concursos-publicos/" target="_blank"><img src={Inicio3} alt="" /></a>
           <a href="https://www.espn.com.br/esports/artigo/_/id/13026515/suuhgetsu-fala-sobre-acessibilidade-esports-pessoas-deficiencia-auditiva-chat-aberto-141" target="_blank"><img src={Inicio4} alt="" /></a>

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Head = styled.header`
     background: rgba(214, 138, 255, .4);
-    filter: drop-shadow(4px 16px 24px #7F00B4);
+    filter: drop-shadow(0px 16px 24px #7F00B4);
     text-decoration: none;
     height: 6.5rem;
     width: 60rem;
@@ -19,7 +19,7 @@ export const Head = styled.header`
         text-transform: uppercase;
     }
 
-    #selecionado{
+    a.selecionado{
         background: #7F00B4;
         border-radius: 39px;
         text-align: center;

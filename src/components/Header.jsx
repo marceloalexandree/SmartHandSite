@@ -1,16 +1,19 @@
 import { GlobalStyle } from "../styles/global";
 import { Head } from "../styles/Header.styles";
-import { Link } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 export default function Header() {
+  const location = useLocation();
+
+  const isHomeOrInicio = location.pathname === '/' || location.pathname === '/inicio';
 
   return (
     <Head>
-        <Link to="/" id="selecionado">Home</Link>
-        <Link to="/passo-a-passo">Utilização</Link>
-        <Link to="/materiais">Materiais</Link>
-        <Link to="/artigos-cientificos">Artigos</Link>
-        <Link to="/sobre-nos">Sobre Nós</Link>
+        <NavLink to="/" className={isHomeOrInicio ? 'selecionado' : ''} >Home</NavLink>
+        <NavLink to="/passo-a-passo" className={({ isActive }) => (isActive ? 'selecionado' : '')}>Utilização</NavLink>
+        <NavLink to="/materiais" className={({ isActive }) => (isActive ? 'selecionado' : '')}>Materiais</NavLink>
+        <NavLink to="/artigos-cientificos" className={({ isActive }) => (isActive ? 'selecionado' : '')}>Artigos</NavLink>
+        <NavLink to="/sobre-nos" className={({ isActive }) => (isActive ? 'selecionado' : '')}>Sobre Nós</NavLink>
         <GlobalStyle/>
     </Head>
   )
