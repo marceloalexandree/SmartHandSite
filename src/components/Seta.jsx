@@ -4,7 +4,7 @@ import SetaImg from '/Seta.png'
 export default function Seta() {
   return (
     <AnimaSeta>
-        <img src={SetaImg} alt="" />
+      <a href="#pt2"><img src={SetaImg} alt="" /></a>
     </AnimaSeta>
   )
 }

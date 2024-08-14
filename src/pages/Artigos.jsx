@@ -12,9 +12,11 @@ export default function Artigos() {
       <Topo/>
       <Parte1>
         <p>Não nos baseamos apenas em <span>sonhos</span>, mas em <span>fatos</span>.</p>
-        <Seta/>
+        <div>
+          <Seta/>
+        </div>
       </Parte1>
-      <Parte2>
+      <Parte2 id="pt2">
         <h1>Base Científica</h1>
         <div id="a1">
           <p>O mundo da ciência tem avançado significativamente na compreensão das dificuldades de comunicação enfrentadas por deficientes auditivos, destacando a importância da inclusão e acessibilidade. Artigos científicos têm explorado como a linguagem de sinais, como a LIBRAS, pode ser vital para conectar esses indivíduos com a sociedade.</p>

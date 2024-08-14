@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Fundo1 from "/fundo1.png"
 
 export const TelaInicio = styled.main`
-    background-image: url(${Fundo1});
+    background: url(${Fundo1}) #20002D;
     min-height: 100dvh;
 
     h1{
@@ -25,7 +25,7 @@ export const Parte1 = styled.section`
     display: flex;
     justify-content: space-evenly;
     margin-top: 8.75rem;
-    padding-bottom: 10.75rem;
+    padding-bottom: 10.625rem;
 
     p{
         color: #ffffff;

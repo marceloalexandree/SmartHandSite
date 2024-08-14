@@ -8,7 +8,7 @@ export default function Header() {
   const isHomeOrInicio = location.pathname === '/' || location.pathname === '/inicio';
 
   return (
-    <Head>
+    <Head id="head">
         <NavLink to="/" className={isHomeOrInicio ? 'selecionado' : ''} >Home</NavLink>
         <NavLink to="/passo-a-passo" className={({ isActive }) => (isActive ? 'selecionado' : '')}>Utilização</NavLink>
         <NavLink to="/materiais" className={({ isActive }) => (isActive ? 'selecionado' : '')}>Materiais</NavLink>

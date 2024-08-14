@@ -23,7 +23,7 @@ export default function Inicio() {
         </figure>
         <Seta/>
       </Parte1>
-      <Parte2>
+      <Parte2 id="pt2">
         <p>No Brasil, <span>5%</span> da população tem deficiência auditiva, mas apenas entre <span>0,8%</span> e <span>3%</span> dominam a Libras. Isso significa que a maioria das pessoas com deficiência auditiva <span>não tem acesso à comunicação em Libras</span>, dificultando a inclusão e a participação social.</p>
         <img src={Inicio2} alt="Criança com aparelho auditivo" />
         <h2>Isso nunca foi um empecilho para nós!</h2>

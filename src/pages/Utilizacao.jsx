@@ -15,15 +15,15 @@ export default function Utilizacao() {
         <div>
           <h1>Conectou.</h1>
           <h1>Sinalizou.</h1>
-          <h1>Traduziu.</h1>
+          <h1 id="animado">Traduziu.</h1>
           <p>Mas como assim?</p>
         </div>
         <section>
           <h2>Como usar a SmartHand?</h2>
-          <a href="">Clique aqui <img src={Planeta} alt="" /></a>
+          <a href="#pt2">Clique aqui <img src={Planeta} alt="" /></a>
         </section>
       </Parte1>
-      <Parte2>
+      <Parte2 id="pt2">
         <h1>Passo a Passo</h1>
         <h2>Para tornar a sua experiência ainda mais fácil, preparamos um guia simples com apenas 3 passos!</h2>
         <section>

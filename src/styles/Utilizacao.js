@@ -11,7 +11,29 @@ export const Parte1 = styled.div`
     justify-content: space-evenly;
     padding-top: 6.9375rem;
     padding-bottom: 13.5625rem;
-    background: #BE82FF url(${fundo1});
+    background: #BE82FF url(${fundo1}) contain;
+
+    div{
+        
+
+        #animado{
+            overflow: hidden;
+            border-right: .5rem solid ;
+            width: 40rem;
+            white-space: nowrap;
+            animation: digitar 4s steps(9, end) infinite;
+        }
+
+        @keyframes digitar {
+            from{
+                width: 0;
+            }
+
+            to{
+                width: 100%;
+            }
+        }
+    }
 
     h1{
         color: #ffffff;

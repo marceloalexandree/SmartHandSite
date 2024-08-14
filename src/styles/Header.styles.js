@@ -58,12 +58,10 @@ export const Top = styled.div`
 export const AnimaSeta = styled.div`
     position: absolute;
     bottom: -1.5rem;
-    left: 50%;
-    transform: translateX(-50%);
 
     img{
         animation: bounce 2s ease infinite;
-        filter: drop-shadow(0px 26px 58px #000000);
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, .5));
     }
 
     @keyframes bounce {

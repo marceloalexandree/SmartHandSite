@@ -27,6 +27,11 @@ export const Parte1 = styled.div`
         right: 0;
         bottom: 0;
     }
+
+    div{
+        display: flex;
+        justify-content: center;
+    }
 `
 
 export const Parte2 = styled.div`
