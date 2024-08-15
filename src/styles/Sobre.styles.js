@@ -3,6 +3,9 @@ import fundo1 from "/fundoS.png"
 
 export const TelaSobre = styled.main`
     background: #BE82FF no-repeat;
+    @media (max-width: 393px) {
+        overflow-x: hidden;
+    }
 `
 
 export const Parte1 = styled.div`

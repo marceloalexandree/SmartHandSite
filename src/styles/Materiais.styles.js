@@ -2,8 +2,11 @@ import styled from "styled-components";
 
 export const TelaMateriais = styled.main`
     background: #370052;
+    @media (max-width: 393px) {
+        overflow-x: hidden;
+    }
     
-    section{
+    #materia{
         display: flex;
         flex-direction: column;
         align-items: center;

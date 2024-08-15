@@ -12,7 +12,7 @@ export default function Materiais() {
   return (
     <TelaMateriais>
       <Topo/>
-      <section>
+      <section id="materia">
         <p id="titulo">Curiosidade sobre o que usamos para produzir o <span>SmartHand</span>? Confira os nosso materiais!</p>
         <div id="cima">
           <div className="card">

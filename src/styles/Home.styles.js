@@ -6,6 +6,9 @@ export const TelaHome = styled.main `
     color: #ffffff;
     padding-left: 3rem;
     padding-right: 4rem;
+    @media (max-width: 393px) {
+        overflow-x: hidden;
+    }
 `
 
 export const Esquerda = styled.div`

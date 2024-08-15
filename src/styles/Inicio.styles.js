@@ -4,6 +4,9 @@ import Fundo1 from "/fundo1.png"
 export const TelaInicio = styled.main`
     background: url(${Fundo1}) #20002D;
     min-height: 100dvh;
+    @media (max-width: 393px) {
+        overflow-x: hidden;
+    }
 
     h1{
         color: #ffffff;

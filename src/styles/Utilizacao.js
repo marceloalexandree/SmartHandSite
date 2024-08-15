@@ -4,6 +4,10 @@ import fundo2 from "/fundo2.png"
 
 export const TelaUtilizacao = styled.main`
     background: #BE82FF;
+    @media (max-width: 393px) {
+        overflow-x: hidden;
+    }
+
 `
 
 export const Parte1 = styled.div`
@@ -14,8 +18,6 @@ export const Parte1 = styled.div`
     background: #BE82FF url(${fundo1}) contain;
 
     div{
-        
-
         #animado{
             overflow: hidden;
             border-right: .5rem solid ;
@@ -96,6 +98,50 @@ export const Parte1 = styled.div`
             scale: .9;
         }
     }
+
+    @media (max-width: 393px){
+        flex-direction: column;
+        align-items: center;
+        background: #BE82FF;
+        padding-top: 2.25rem;
+
+        h1{
+            width: 19.375rem;
+            font-size: 2.5rem;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 2.75rem;
+            #animado{
+                width: 19.375rem;
+                animation: none;
+                border: none;
+            }
+            p{
+                font-size: 2rem;
+                width: 10.875rem;
+            }
+        }
+        section{
+            width: 18.75rem;
+            height: 18.75rem;
+            h2{
+                width: 17.375rem;
+                font-size: 2rem;
+            }
+            a{
+                width: 13.625rem;
+                height: 4.625rem;
+                font-size: 1.25rem;
+            }
+            a img{
+                width: 3.125rem;
+            }
+        }
+    }
 `
 
 export const Parte2 = styled.div`
@@ -164,6 +210,36 @@ export const Parte2 = styled.div`
             background: #7B2BBE;
         }
     }
+
+    @media (max-width: 393px){
+        padding-top: 7.25rem;
+        
+        h1{
+            max-width: 15rem;
+            font-size: 3.5rem;
+            text-align: center;
+            margin-bottom: 5rem;
+        }
+
+        h2{
+            display: none;
+        }
+
+        section{
+            flex-direction: column;
+            gap: 8rem;
+            h3{
+                width: 5rem;
+                height: 5rem;
+                font-size: 3.25rem;
+            }
+
+            p{
+                width: 18rem;
+                font-size: 1.5rem;
+            }
+        }
+    }
 `
 
 export const Parte3 = styled.div`
@@ -183,5 +259,16 @@ export const Parte3 = styled.div`
 
     a{
         padding-bottom: 6.375rem;
+    }
+
+    @media (max-width: 393px){
+        p{
+            max-width: 24.5rem;
+            font-size: 1.5rem;
+        }
+
+        img{
+            max-width: 18.75rem;
+        }
     }
 `

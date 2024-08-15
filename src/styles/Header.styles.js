@@ -10,6 +10,14 @@ export const Head = styled.header`
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
+    .icon , .inativo{
+        display: none;
+    }
+
+    .icon button{
+        background: transparent;
+    }
 
     a{
         color: #F7E7FF;
@@ -17,6 +25,11 @@ export const Head = styled.header`
         font-family: "Poppins", sans-serif;
         font-size: 24px;
         text-transform: uppercase;
+        transition: 1s;
+    }
+
+    a:hover{
+        text-decoration: underline;
     }
 
     a.selecionado{
@@ -26,6 +39,54 @@ export const Head = styled.header`
         vertical-align: bottom;
         width: 12.25rem;
         padding-block: 1.375rem;
+    }
+
+    .icon button{
+        border: none;
+    }
+
+    @media (max-width: 393px) {
+        background: transparent;
+        height: auto;
+        width: auto;
+        border-radius: 10px;
+        flex-direction: column;
+
+        a {
+        display: none;
+        }
+
+        .icon{
+            display: block;
+        }
+
+        .iconAtivo button{
+            background: none;
+            border: none;
+            rotate: 90deg;
+            transition: .5s;
+        }
+
+        .ativo{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            position: absolute;
+            top: 1rem;
+            right: -2rem;
+            z-index: 2;
+            height: 17.25rem;
+            width: 11.75rem;
+            background: #B679F2;
+            border-radius: 25px;
+            font-size: 1.125rem;
+            padding-left: 1rem;
+            transition: .5s;
+        }
+
+        .ativo a{
+            display: block;
+        }
     }
 `
 export const StyleLogo = styled.div`
@@ -47,12 +108,32 @@ export const StyleLogo = styled.div`
         font-family: "Ruda";
         font-size: 2rem;
     }
+
+    @media (max-width:393px) {
+        align-items: center;
+        img{
+            width: 3.125rem;
+        }
+
+        h2{
+            font-size: 1.5rem;
+        }
+
+        h3{
+            font-size: 0.875rem;
+        }
+    }
 `
 
 export const Top = styled.div`
     display: flex;
     justify-content: space-evenly;
     padding-top: 4rem;
+
+    @media (max-width:393px) {
+        padding-top: .5rem;
+        max-width: 23.375rem;
+    }
 `
 
 export const AnimaSeta = styled.div`
