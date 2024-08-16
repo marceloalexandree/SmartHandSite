@@ -3,8 +3,9 @@ import fundo1 from "/fundoS.png"
 
 export const TelaSobre = styled.main`
     background: #BE82FF no-repeat;
-    @media (max-width: 393px) {
+    @media (max-width: 480px) {
         overflow-x: hidden;
+        background: #000000;
     }
 `
 
@@ -24,6 +25,10 @@ export const Parte1 = styled.div`
 
     span{
         color: #7F00B4;
+    }
+
+    @media (max-width: 480px) {
+        display: none;
     }
     
 `
@@ -46,6 +51,10 @@ export const Parte2 = styled.div`
 
     span{
         color: #A801FC;
+    }
+
+    h1{
+        display: none;
     }
 
     section{
@@ -79,7 +88,25 @@ export const Parte2 = styled.div`
             }
 
         }
+    }
 
-        
+    @media (max-width: 480px) {
+        padding-block: 5rem;
+
+        p{
+            display: none;
+        }
+        h1{
+            display: block;
+            font-size: 3rem;
+        }
+
+        section{
+            flex-direction: column;
+            div{
+                gap: 1rem;
+                margin-bottom: 7rem;
+            }
+        }
     }
 `

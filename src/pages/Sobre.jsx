@@ -16,6 +16,7 @@ export default function Sobre() {
         <Seta/>
       </Parte1>
       <Parte2 id="pt2">
+        <h1>Quem somos</h1>
         <p>Somos um grupo formado por <span>estudantes do ensino médio</span> e juntos desenvolvemos nosso produto, o SmartHand, <span>visando trazer maior acessibilidade ao mundo</span>.</p>
         <section>
           <div>

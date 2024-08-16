@@ -2,8 +2,24 @@ import styled from "styled-components";
 
 export const TelaMateriais = styled.main`
     background: #370052;
-    @media (max-width: 393px) {
+    @media (max-width: 480px) {
         overflow-x: hidden;
+        #materia{
+            img{
+                scale: .8;
+            }
+
+            #titulo{
+                max-width: 21.875rem;
+                font-size: 3rem;
+            }
+
+            #cima, #baixo{
+                flex-direction: column;
+                gap: 6rem;
+            }
+        }
+        
     }
     
     #materia{
@@ -15,7 +31,7 @@ export const TelaMateriais = styled.main`
         font-family: 'Poppins';
         text-align: center;
 
-        #titulo{
+        h1{
             color: #ffffff;
             font-family: 'Poppins';
             font-size: 4rem;

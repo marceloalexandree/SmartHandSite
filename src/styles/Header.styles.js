@@ -45,7 +45,7 @@ export const Head = styled.header`
         border: none;
     }
 
-    @media (max-width: 393px) {
+    @media (max-width: 480px) {
         background: transparent;
         height: auto;
         width: auto;
@@ -74,9 +74,9 @@ export const Head = styled.header`
             position: absolute;
             top: 1rem;
             right: -2rem;
-            z-index: 2;
-            height: 17.25rem;
-            width: 11.75rem;
+            z-index: 4;
+            height: 18rem;
+            width: 14rem;
             background: #B679F2;
             border-radius: 25px;
             font-size: 1.125rem;
@@ -109,7 +109,7 @@ export const StyleLogo = styled.div`
         font-size: 2rem;
     }
 
-    @media (max-width:393px) {
+    @media (max-width:480px) {
         align-items: center;
         img{
             width: 3.125rem;
@@ -130,9 +130,9 @@ export const Top = styled.div`
     justify-content: space-evenly;
     padding-top: 4rem;
 
-    @media (max-width:393px) {
-        padding-top: .5rem;
-        max-width: 23.375rem;
+    @media (max-width:480px) {
+        padding-top: 1rem;
+        max-width: 28.125rem;
     }
 `
 

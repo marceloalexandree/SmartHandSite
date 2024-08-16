@@ -4,8 +4,11 @@ import Fundo1 from "/fundo1.png"
 export const TelaInicio = styled.main`
     background: url(${Fundo1}) #20002D;
     min-height: 100dvh;
-    @media (max-width: 393px) {
+    @media (max-width: 480px) {
         overflow-x: hidden;
+        #setona{
+            display: none;
+        }
     }
 
     h1{
@@ -43,6 +46,35 @@ export const Parte1 = styled.section`
         font-size: 1.25rem;
         margin-top: 1.5rem;
     }
+
+    @media (max-width: 480px){
+        flex-direction: column;
+
+        h1{
+            max-width: 26rem;
+            font-size: 3.5rem;
+            text-align: center;
+        }
+
+        div, figure{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        div{
+            p{
+                max-width: 23rem;
+                font-size: 1.75rem;
+                text-align: center;
+                margin-bottom: 4rem;
+            }
+        }
+
+        img{
+            max-width: 20rem;
+        }
+    }
 `
 
 export const Parte2 = styled.section`
@@ -77,6 +109,36 @@ export const Parte2 = styled.section`
         font-size: 2.5rem;
         width: 66.5rem;
         padding-bottom: 3rem;
+    }
+
+    @media (max-width: 480px){
+        padding: 0;
+        padding-top: 7rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        p{
+            max-width: 23rem;
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        img{
+            max-width: 24rem;
+            margin-block: 4rem;
+        }
+
+        h2{
+            max-width: 24rem;
+            font-size: 3rem;
+            text-align: center;
+        }
+
+        #Parte2{
+            font-size: 2rem;
+        }
     }
 `
 
@@ -113,5 +175,30 @@ export const Parte3 = styled.div`
         text-align: center;
         margin-bottom: 5rem;
         margin-top: 2rem;
+    }
+
+    @media (max-width: 480px){
+        padding-block: 6rem;
+        align-items: center;
+        
+        h3{
+            max-width: 24rem;
+            font-size: 3rem;
+            text-align: center;
+        }
+
+        p{
+            font-size: 1.5rem;
+            max-width: 22rem;
+        }
+
+        div{
+            flex-direction: column;
+            gap: 3rem;
+            img{
+                width: 19rem;
+            }
+        }
+
     }
 `

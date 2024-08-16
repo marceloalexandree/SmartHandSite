@@ -1,6 +1,7 @@
 import { GlobalStyle } from "../styles/global"
 import { TelaHome, Deitado, Esquerda, Direita } from "../styles/Home.styles"
 import { Link } from 'react-router-dom'
+import Topo from "../components/Topo";
 import Header from "../components/Header"
 import LogoImg from "/LOGO.png"
 import Instagram from "/Instagram.png"
@@ -13,6 +14,7 @@ import Video from "/zVideo.mp4"
 export default function Home() {
   return (
       <TelaHome>
+        <Topo/>
         <Esquerda>
           <Deitado>
             <h2>Smarthand</h2>
@@ -33,6 +35,10 @@ export default function Home() {
               <Link to="/inicio">Saiba Mais Sobre o Nosso Produto <img src={Setinha} alt="" /></Link>
             </div>
           </section>
+          <div id="sumiu">
+            <h1>Trazendo o mundo até você</h1>
+            <p>A SmartHand é uma luva inovadora que promete revolucionar a comunicação entre pessoas com deficiência auditiva e ouvintes. Essa luva representa um grande passo para a inclusão social, facilitando a comunicação e a interação com o mundo para pessoas com deficiência auditiva.</p>
+          </div>
         </Esquerda>
         <Direita>
           <video autoPlay loop muted>
@@ -41,7 +47,7 @@ export default function Home() {
           <Header/>
           <h1>Trazendo o mundo até você</h1>
           <p>A SmartHand é uma luva inovadora que promete revolucionar a comunicação entre pessoas com deficiência auditiva e ouvintes. Essa luva representa um grande passo para a inclusão social, facilitando a comunicação e a interação com o mundo para pessoas com deficiência auditiva.</p>
-          <div><a href="" id="contato">Fale Conosco</a></div>
+          <div id="conosco"><a href="" id="contato">Fale Conosco</a></div>
         </Direita>
         <GlobalStyle/>
       </TelaHome>

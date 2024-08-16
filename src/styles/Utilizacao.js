@@ -4,7 +4,7 @@ import fundo2 from "/fundo2.png"
 
 export const TelaUtilizacao = styled.main`
     background: #BE82FF;
-    @media (max-width: 393px) {
+    @media (max-width: 480px) {
         overflow-x: hidden;
     }
 
@@ -99,7 +99,7 @@ export const Parte1 = styled.div`
         }
     }
 
-    @media (max-width: 393px){
+    @media (max-width: 480px){
         flex-direction: column;
         align-items: center;
         background: #BE82FF;
@@ -211,7 +211,7 @@ export const Parte2 = styled.div`
         }
     }
 
-    @media (max-width: 393px){
+    @media (max-width: 480px){
         padding-top: 7.25rem;
         
         h1{
@@ -261,7 +261,7 @@ export const Parte3 = styled.div`
         padding-bottom: 6.375rem;
     }
 
-    @media (max-width: 393px){
+    @media (max-width: 480px){
         p{
             max-width: 24.5rem;
             font-size: 1.5rem;

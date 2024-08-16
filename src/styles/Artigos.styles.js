@@ -4,6 +4,9 @@ import Fundo2 from "/fundo4.png"
 
 export const TelaArtigos = styled.main`
     background: #370052;
+    @media (max-width: 480px){
+        overflow-x: hidden;
+    }
 `
 export const Parte1 = styled.div`
     padding-top: 9rem;
@@ -20,6 +23,7 @@ export const Parte1 = styled.div`
 
     span{
         color: #D3A1FF;
+        
     }
 
     img{
@@ -31,6 +35,24 @@ export const Parte1 = styled.div`
     div{
         display: flex;
         justify-content: center;
+    }
+
+    @media (max-width: 480px){
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-block: 7rem;
+        
+        #setona{
+            display: none;
+        }
+
+        p{
+            max-width: 22.375rem;
+            text-align: center;
+            font-size: 3rem;
+        }
     }
 `
 
@@ -76,6 +98,41 @@ export const Parte2 = styled.div`
         margin-top: 1.5rem;
     }
 
+    @media (max-width: 480px){
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        h1{
+            max-width: 25rem;
+            font-size: 3rem;
+            text-align: center;
+            padding-top: 6rem;
+        }
+
+        p{
+            max-width: 19.375rem;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        #a1{
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 5.5rem;
+        }
+
+        #a2{
+            flex-direction: column-reverse;
+            align-items: center;
+            gap: 5.5rem;
+        }
+
+        img{
+            max-width: 19.375rem;
+        }
+    }
 `
 
 export const Parte3 = styled.div`
@@ -117,4 +174,19 @@ export const Parte3 = styled.div`
         border: solid 5px #7B2BBE;
     }
 
+    @media (max-width: 480px){
+        gap: 4rem;
+        padding-block: 10rem;
+        
+        h3{
+            max-width: 23.5rem;
+            font-size: 2.25rem;
+        }
+
+        button{
+            width: 18rem;
+            height: 5.125rem;
+            font-size: 1.5rem;
+        }
+    }
 `

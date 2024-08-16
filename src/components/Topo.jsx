@@ -4,7 +4,7 @@ import Logo from "./Logo"
 
 export default function Topo() {
   return (
-    <Top>
+    <Top id="top">
         <Logo/>
         <Header/>
     </Top>

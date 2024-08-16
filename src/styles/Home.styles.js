@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import fundo from "/fundo.png";
 
 export const TelaHome = styled.main `
     min-height: 100vh;
@@ -6,8 +7,24 @@ export const TelaHome = styled.main `
     color: #ffffff;
     padding-left: 3rem;
     padding-right: 4rem;
-    @media (max-width: 393px) {
+    #top{
+        display: none;
+    }
+
+    @media (max-width: 480px) {
         overflow-x: hidden;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        video{
+            display: none;
+        }
+
+        #top{
+            display: flex;
+            gap: 3.5rem;
+        }
     }
 `
 
@@ -66,6 +83,51 @@ export const Esquerda = styled.div`
         box-shadow: 0 0 10px #D3A1FF, 0 0 20px #D3A1FF, 0 0 30px #D3A1FF, 0 0 40px #D3A1FF;
         text-decoration: underline;
     }
+
+    #sumiu{
+        display: none;
+    }
+
+    @media (max-width: 480px){
+        
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 2rem;
+        a{
+            width: 20rem;
+            font-size: 1rem;
+            padding-left: 3rem;
+        }
+
+        section{
+            padding-top: 0;
+            padding-left: .5rem;
+        }
+
+        #sumiu{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: url(${fundo}) center center no-repeat;
+            background-position: center;
+            padding-top: 1.75rem;
+            padding-bottom: 2.625rem;
+            margin-top: 1.5rem;
+            max-width: 24.5rem;
+            border-radius: 30px;
+            padding-inline: 1.375rem;
+            h1{
+                max-width: 19.375rem;
+                font-size: 2.5rem;
+                text-align: center;
+                margin-bottom: 1.875rem;
+            }
+            p{
+                max-width: 22rem;
+                text-align: center;
+            }
+        }
+    }
 `
 
 export const Deitado = styled.div`
@@ -93,6 +155,10 @@ export const Deitado = styled.div`
         img{
             transform: rotate(90deg);
         }
+    }
+
+    @media (max-width: 480px){
+        display: none;
     }
 `
 
@@ -133,7 +199,7 @@ export const Direita = styled.div`
         font-family: 'Poppins';
     }
 
-    div{
+    #mais, #conosco{
         background: #000000;
         padding: 1.625rem;
         position: absolute;
@@ -162,5 +228,9 @@ export const Direita = styled.div`
     #contato:hover{
         box-shadow: 0 0 10px #D3A1FF, 0 0 20px #D3A1FF, 0 0 30px #D3A1FF, 0 0 40px #D3A1FF;
         text-decoration: underline;
+    }
+
+    @media (max-width: 480px){
+        display: none;
     }
 `
