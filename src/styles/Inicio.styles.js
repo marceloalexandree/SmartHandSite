@@ -51,7 +51,7 @@ export const Parte1 = styled.section`
         flex-direction: column;
 
         h1{
-            max-width: 26rem;
+            max-width: 25rem;
             font-size: 3.5rem;
             text-align: center;
         }
@@ -83,7 +83,7 @@ export const Parte2 = styled.section`
     padding-block: 8rem;
 
     p{
-        width: 99.6875rem;
+        max-width: 99.6875rem;
         font-size: 3.125rem;
         text-align: justify;
     }
@@ -98,7 +98,7 @@ export const Parte2 = styled.section`
     }
 
     h2{
-        width: 70.25rem;
+        max-width: 70.25rem;
         font-family: 'Space';
         color: #ffffff;
         font-size: 4.8125rem;
@@ -107,8 +107,9 @@ export const Parte2 = styled.section`
 
     #Parte2{
         font-size: 2.5rem;
-        width: 66.5rem;
+        max-width: 66.5rem;
         padding-bottom: 3rem;
+        margin-inline: .5rem;
     }
 
     @media (max-width: 480px){

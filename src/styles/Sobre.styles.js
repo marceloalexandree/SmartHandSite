@@ -99,6 +99,7 @@ export const Parte2 = styled.div`
         h1{
             display: block;
             font-size: 3rem;
+            text-align: center;
         }
 
         section{
