@@ -21,7 +21,7 @@ export default function Materiais() {
             </div>
             <div className="content">
               <h2>Arduino Nano</h2>
-              <p>Microcontrolador, o "cérebro" - R$00,00</p>
+              <p>Microcontrolador, o "cérebro" - R$36,78</p>
             </div>
           </div>
 
@@ -31,7 +31,7 @@ export default function Materiais() {
             </div>
             <div className="content">
               <h2>Sensor Flexível</h2>
-              <p>Mede a quantidade de flexão - R$00,00</p>
+              <p>Mede a quantidade de flexão - R$110,00</p>
             </div>
           </div>
 
@@ -41,7 +41,7 @@ export default function Materiais() {
             </div>
             <div className="content">
               <h2>Módulo Bluetooth</h2>
-              <p>Comunicação entre a SmartHand e APP - R$00,00</p>
+              <p>Comunicação entre a SmartHand e APP - R$31,40</p>
             </div>
           </div>
         </div>
@@ -51,8 +51,8 @@ export default function Materiais() {
               <img src={M4} alt="" />
             </div>
             <div className="content">
-              <h2>Conversor Lógico</h2>
-              <p>Ajuda no trabalho de comunicação - R$00,00</p>
+              <h2>Acelerômetro MP6050</h2>
+              <p>Mede a aceleração e giro da SmartHand - R$18,50</p>
             </div>
           </div>
 
@@ -61,8 +61,8 @@ export default function Materiais() {
               <img src={M5} alt="" />
             </div>
             <div className="content">
-              <h2>Bateria 3,7V</h2>
-              <p>Alimentação do projeto - R$00,00</p>
+              <h2>Bateria 9V</h2>
+              <p>Alimentação do projeto - R$32,00</p>
             </div>
           </div>
 
@@ -71,8 +71,8 @@ export default function Materiais() {
               <img src={M1} alt="" />
             </div>
             <div className="content">
-              <h2>Luva de Poliéster</h2>
-              <p>Base do projeto - R$00,00</p>
+              <h2>Sensor de toque</h2>
+              <p>Mede toque entre os dedos - R$3,60</p>
             </div>
           </div>
         </div>

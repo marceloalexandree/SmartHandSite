@@ -79,12 +79,14 @@ export const Parte1 = styled.section`
 
 export const Parte2 = styled.section`
     background: #570083;
-    padding-left: 10.1875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-block: 8rem;
 
     p{
         max-width: 99.6875rem;
-        font-size: 3.125rem;
+        font-size: 2.25rem;
         text-align: justify;
     }
 
@@ -92,9 +94,15 @@ export const Parte2 = styled.section`
         color: #D3A1FF;
     }
 
+    #image{
+        display: flex;
+    }
+
     img{
-        margin-block: 9.125rem;
+        margin-block: 7rem;
         border-radius: 10px;
+        margin-inline: auto;
+        width: 60rem;
     }
 
     h2{
@@ -103,6 +111,7 @@ export const Parte2 = styled.section`
         color: #ffffff;
         font-size: 4.8125rem;
         margin-bottom: 2.5rem;
+        text-align: center;
     }
 
     #Parte2{
@@ -153,7 +162,7 @@ export const Parte3 = styled.div`
     h3{
         text-align: center;
         color: #ffffff;
-        font-family: 'Poppins';
+        font-family: 'Space';
         font-size: 5.625rem;
         font-weight: 400;
     }
@@ -176,6 +185,11 @@ export const Parte3 = styled.div`
         text-align: center;
         margin-bottom: 5rem;
         margin-top: 2rem;
+    }
+
+    iframe{
+        width: 70rem;
+        height: 35rem;
     }
 
     @media (max-width: 480px){

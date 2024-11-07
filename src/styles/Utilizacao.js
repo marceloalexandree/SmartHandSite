@@ -256,10 +256,9 @@ export const Parte3 = styled.div`
         text-align: center;
         padding-block: 4.875rem;
     }
+    
+    padding-bottom: 6.375rem;
 
-    a{
-        padding-bottom: 6.375rem;
-    }
 
     @media (max-width: 480px){
         p{

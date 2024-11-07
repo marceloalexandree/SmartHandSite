@@ -12,4 +12,10 @@ export const GlobalStyle =  createGlobalStyle `
     h1{
         font-family: 'Space';
     }
+
+    @media (min-width: 500px) and (max-width: 1800px){
+        html{
+            font-size: 11px;
+        }
+    }
 `

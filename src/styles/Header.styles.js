@@ -23,7 +23,7 @@ export const Head = styled.header`
         color: #F7E7FF;
         text-decoration: none;
         font-family: "Poppins", sans-serif;
-        font-size: 24px;
+        font-size: 1.5rem;
         text-transform: uppercase;
         transition: 1s;
     }

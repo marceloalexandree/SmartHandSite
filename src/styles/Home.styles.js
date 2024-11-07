@@ -31,6 +31,7 @@ export const TelaHome = styled.main `
 export const Esquerda = styled.div`
     font-family: 'Poppins';
     
+
     section{
         width: 18.375rem;
         padding-top: 37rem;

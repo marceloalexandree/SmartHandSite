@@ -45,8 +45,8 @@ export default function Utilizacao() {
         </section>
       </Parte2>
       <Parte3>
-        <p>Não tem o aplicativo da SmartHand? Baixe agora na Google Play Store!</p>
-        <a href=""><img src={Img4} alt="Baixar o app da SmartHand" /></a>
+        <p>Utilização na prática</p>
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/Leep9KouXMo?list=PLEd-urvJlSm89c-7UkUT2jN2vZMhJ1Jfb" title="Matuê - Imagina esse Cenário ft. Veigh" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </Parte3>
       <GlobalStyle/>
     </TelaUtilizacao>

@@ -60,7 +60,7 @@ export const Parte2 = styled.div`
     background: url(${Fundo2}) #000000 no-repeat;
     padding-top: 18.125rem;
     padding-left: 9rem;
-    padding-bottom: 14.875rem;
+    padding-bottom: 10rem;
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -136,12 +136,13 @@ export const Parte2 = styled.div`
 `
 
 export const Parte3 = styled.div`
-    background: #000000;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(25,25,25,1) 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 7.375rem;
-    padding-bottom: 18rem;
+    gap: 5rem;
+    padding-bottom: 12rem;
+    padding-top: 7rem;
 
     h3{
         width: 80rem;
@@ -172,6 +173,24 @@ export const Parte3 = styled.div`
         background: #ffffff;
         color: #7B2BBE;
         border: solid 5px #7B2BBE;
+    }
+
+    a{
+        all: unset;
+        color: #ffffff;
+        font-family: 'Poppins';
+        font-weight: bold;
+        font-size: 1.125rem;
+        padding: 20px;
+        border: 2px solid #ffffff;
+        border-radius: 25px;
+        transition: .5s;
+    }
+
+    a:hover{
+        cursor: pointer;
+        background: #ffffff;
+        color: #000000;
     }
 
     @media (max-width: 480px){

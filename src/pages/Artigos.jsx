@@ -28,8 +28,11 @@ export default function Artigos() {
         </div>
       </Parte2>
       <Parte3>
-        <h3>Quer ler os artigos usados para embasamento científico do nosso produto? Clique no botão abaixo:</h3>
-        <button id="ovo">Ver artigos</button>
+        <h3>Quer ler os artigos usados para as pesquisas do nosso produto?</h3>
+        <a href="https://periodicos.ufrn.br/odisseia/article/view/12613/9025">Libras: algumas reflexões sobre a sintaxe</a>
+        <a href="https://www.seer.ufrgs.br/renote/article/view/49824/31183">Tecnologia Assistiva: a inserção de aplicativos de tradução na promoção de uma melhor comunicação entre surdos e ouvintes</a>
+        <a href="https://www.falangemiuda.com.br/index.php/refami/article/view/167">A LIBRAS. Revista De Estudos Da Linguagem</a>
+        <a href="http://riut.utfpr.edu.br/jspui/bitstream/1/5018/1/luvainstrumentadag est oslibras.pdf">Luva instrumentada para reconhecimento de padrões de gestos em LIBRAS</a>
       </Parte3>
       <GlobalStyle/>
     </TelaArtigos>
