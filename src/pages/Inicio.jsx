@@ -33,7 +33,7 @@ export default function Inicio() {
         <h3>A Luva do Destino</h3>
         <p>Jogo da SmartHand</p>
         <div>
-          <iframe width="700" height="394" src="https://www.youtube.com/embed/m9mYlPD1cA8" title="Demonstração do jogo &quot;A Luva do Destino&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="1280" height="720" src="https://www.youtube.com/embed/m9mYlPD1cA8" title="Demonstração do jogo &quot;A Luva do Destino&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </Parte3>
       <GlobalStyle/>

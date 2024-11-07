@@ -46,7 +46,7 @@ export default function Utilizacao() {
       </Parte2>
       <Parte3>
         <p>Utilização na prática</p>
-        <iframe width="1280" height="720" src="https://www.youtube.com/embed/Leep9KouXMo?list=PLEd-urvJlSm89c-7UkUT2jN2vZMhJ1Jfb" title="Matuê - Imagina esse Cenário ft. Veigh" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/nud53uP_Uoc" title="Explicando funcionamento do projeto tcc - &quot;SMARTHAND&quot; : luva tradutora de libras" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </Parte3>
       <GlobalStyle/>
     </TelaUtilizacao>

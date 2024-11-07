@@ -187,11 +187,6 @@ export const Parte3 = styled.div`
         margin-top: 2rem;
     }
 
-    iframe{
-        width: 70rem;
-        height: 35rem;
-    }
-
     @media (max-width: 480px){
         padding-block: 6rem;
         align-items: center;
