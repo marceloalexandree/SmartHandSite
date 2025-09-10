@@ -3,9 +3,17 @@ import { GlobalStyle } from "../styles/global";
 import Topo from "../components/Topo";
 import Seta from "../components/Seta";
 import Anny from "/Anny 1.png"
-import Hector from "/Hector 1.png"
+import Hector from "/Hector 1.jpg"
 import Marcelo from "/Marcelo 1.png"
 import Raquel from "/Raquel 1.png"
+
+const pessoas = [
+  {img: Anny, nome: 'Anny Lamberti', responsabilidade: 'Designer UI e Gráfico'},
+  {img: Marcelo, nome: 'Marcelo Alexandre', responsabilidade: 'Desenvolvedor'},
+  {img: Hector, nome: 'Hector Pellegrino', responsabilidade: 'Desenvolvedor'},
+  {img: Raquel, nome: 'Raquel Ramos', responsabilidade: 'Engenheira Mecatronica'},
+]
+
 
 export default function Sobre() {
   return (
@@ -19,26 +27,15 @@ export default function Sobre() {
         <h1>Quem somos</h1>
         <p>Somos um grupo formado por <span>estudantes do ensino médio</span> e juntos desenvolvemos nosso produto, o SmartHand, <span>visando trazer maior acessibilidade ao mundo</span>.</p>
         <section>
-          <div>
-            <img src={Anny} alt="" />
-            <h2>Anny Lamberti</h2>
-            <h3>Designer UI e Gráfico </h3>
-          </div>
-          <div>
-            <img src={Hector} alt="" />
-            <h2>Héctor Pellegrino</h2>
-            <h3>Programador</h3>
-          </div>
-          <div>
-            <img src={Marcelo} alt="" />
-            <h2>Marcelo Alexandre</h2>
-            <h3>Programador</h3>
-          </div>
-          <div>
-            <img src={Raquel} alt="" />
-            <h2>Raquel Ramos</h2>
-            <h3>Engenheira Mecatrônica</h3>
-          </div>
+          {pessoas.map((pessoa) => {
+            return (
+            <div>
+              <img width='200px' src={pessoa.img} alt={pessoa.nome} />
+              <h2>{pessoa.nome}</h2>
+              <h3>{pessoa.responsabilidade}</h3>
+            </div>
+            )
+          })}
         </section>
       </Parte2>
       <GlobalStyle/>
