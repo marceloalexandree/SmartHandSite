@@ -11,7 +11,7 @@ const pessoas = [
   {img: Anny, nome: 'Anny Lamberti', responsabilidade: 'Designer UI e Gráfico'},
   {img: Marcelo, nome: 'Marcelo Alexandre', responsabilidade: 'Desenvolvedor'},
   {img: Hector, nome: 'Hector Pellegrino', responsabilidade: 'Desenvolvedor'},
-  {img: Raquel, nome: 'Raquel Ramos', responsabilidade: 'Engenheira Mecatronica'},
+  {img: Raquel, nome: 'Raquel Ramos', responsabilidade: 'Engenheira de Software'},
 ]
 
 
